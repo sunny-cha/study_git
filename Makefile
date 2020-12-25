@@ -8,7 +8,8 @@ all: $(PROG)
 install: $(PROG)
 	install $(PROG) $(HOME)/bin/
 
-LIBS= -lssl
+#LIBS= -lssl
+LIBS= -lssl	-lcrypto -lz	#by cha
 
 init-db: init-db.o
 

@@ -13,6 +13,8 @@
 #include <openssl/sha.h>
 #include <zlib.h>
 
+#include <string.h>	//by cha
+
 /*
  * Basic data structures for the directory cache
  *
